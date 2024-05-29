@@ -4,7 +4,7 @@
 
     public static void main(String[] args)
     {
-    System.out.println("sum  ram is:");
+    System.out.println("The sum is:");
     int num1=5;
     int num2=10;
     int num3=15;
