@@ -1,15 +1,15 @@
- class Main
-{ 
-
-
-    public static void main(String[] args)
+ import java.util.Scanner;
+class addition{
+    public static void main (String[] args)
     {
-    System.out.println("Sum of 3 numbers is:");
-    int num1=5;
-    int num2=10;
-    int num3=15;
-    int sum= num1 + num2 + num3;
-    System.out.println(sum);
-}
-}
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number");
+        int a = sc.nextInt();
+        System.out.println("Enter second number");
+        int b = sc.nextInt();
+        int sum = a+b;
+        System.out.println("The sum is:");
+        System.out.println(sum);
 
+    }
+}
