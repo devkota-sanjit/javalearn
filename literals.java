@@ -1,4 +1,5 @@
- class literals
+//use of literals in java programming
+class literals
 {
     public static void main (String[] args)
     {
